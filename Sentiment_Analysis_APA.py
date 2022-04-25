@@ -3,7 +3,10 @@
 
 @author: Ali Yusuf
 """
-
+#Download snscrape model to scrape tweets and also vaderSentiment model to conduct the sentiment analysis
+#To download models use the two following commands in the Anaconda command prompt terminal
+#pip intall snscrape
+#pip install vaderSentiment
 
 import snscrape.modules.twitter as sntwitter
 import pandas as pd
